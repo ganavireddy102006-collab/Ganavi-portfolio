@@ -265,16 +265,25 @@ nav a: hover{
 		font-size: 14px;
 	}
 	#home{
+		width: 100%;
 		padding: 50px 20px;
+		text-align: center;
+        box-sizing: border-box;
 	}
 	.hero h1{
 		font-size: 32px;
+		text-align: center;
 	}
 	.hero h2{
 		font-size: 22px;
+		text-align: center;
 	}
 	.hero p{
 		font-size: 16px;
+		width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
 	}
 	#skills,
 	#projects,
