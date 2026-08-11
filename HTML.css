@@ -198,15 +198,22 @@ nav a: hover{
 .achievement-card{
 	background-color: #151923;
 	padding: 25px;
-	width: 280px;
+	width: 300px;
 	border-radius: 18px;
 	text-align: left;
 	border:1px solid #252B38;
 	transition: 0.3s;
+	min-height: 170px;
+	box-sizing: border-box;
 }
 .achievement-card h3{
 	margin-bottom: 12px;
 	color: #4F8CFF;
+}
+.achievement-card h3 i{
+	color:#4F8CFF;
+	font-size: 22px;
+	margin-right: 16px;
 }
 .achievement-card p{
 	line-height: 1.6;
@@ -255,6 +262,15 @@ nav a: hover{
 .conatct-links a: hover{
 	background-color: #4F8CFF;
 	color: white;
+}
+h2 i{
+	color: #4F8CFF;
+	margin-right:12px;
+}
+.achievement-card h3 i{
+	color:#4F8CFF;
+	margin-right:16px;
+	font-size: 22px;
 }
 @media (max-width: 768px){
 	nav{
