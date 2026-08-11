@@ -296,6 +296,39 @@ nav a: hover{
 		flex-direction: column;
 		align-items: center;
 	}
+	#about {
+        padding: 50px 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .about-content {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .about-content p {
+        width: 100%;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .achievements-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .achievement-card {
+        width: 100%;
+        max-width: 350px;
+        min-height: 170px;
+        box-sizing: border-box;
+	}
 }
 	
 
